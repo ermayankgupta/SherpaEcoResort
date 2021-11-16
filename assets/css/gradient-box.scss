@@ -1,27 +1,27 @@
-$gradian-left:#00c663;
-$gradian-right:#00e817;
-$secondary-color: #9cf274;
+@import 'colorsAndFonts';
 .gradiant {
     width: 100%;
     height: 150px;
     background-image: linear-gradient(to right, $gradian-left, $gradian-right);
     & p {
       font-size: 35px;
-      color: #fff;
+      position: relative;
+      top: 40px;
+      color: $bg-color;
       
     }
     & a {
-      background-color: #fff;
+      background-color: $bg-color;
       text-decoration: none;
       padding: 10px 40px;
       border-radius: 5px;
       position: relative;
-      top: 50px;
+      top: 45px;
       color: $secondary-color;
       &:hover {
         transition: ease-in 0.2s;
         background-color: orange;
-        color: #fff;
+        color: $bg-color;
       }
     }
   }
@@ -29,8 +29,10 @@ $secondary-color: #9cf274;
     .gradiant {
       width: 100%;
       height: 200px;
+      & p{
+        top: 0%;
+      }
       & a {
-        position: relative;
         top: 0px;
       }
     }
