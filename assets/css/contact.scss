@@ -1,0 +1,45 @@
+@import 'colorsAndFonts';
+
+body {
+  font-family: $regular-font;
+}
+.container {
+  & h2 {
+    color: $secondary-color;
+    font-family: $cursive-font;
+    font-weight: 500;
+    font-size: 80px;
+  }
+  & h3 {
+    color: $primary-color;
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    top: -50px;
+    left: 30px;
+  }
+}
+
+.container {
+  & label {
+    float: left;
+  }
+  & textarea{
+      resize: none;
+      width: 100%;
+  }
+  & input{
+      color: $link-hover;
+  }
+}
+.container a {
+  text-decoration: none;
+  width: 100px;
+  background-color: $link-hover;
+  color: $bg-color;
+  padding: 8px 15px;
+  border-radius: 8px;
+  &:hover {
+    background-color: $secondary-color;
+  }
+}

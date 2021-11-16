@@ -1,0 +1,12 @@
+@import 'colorsAndFonts';
+
+nav .container-fluid .collapse .navbar-nav a {
+    font-family: $regular-font;
+    font-weight: bold;
+    color: $link-color;
+    &:hover {
+      transition: ease-in 0.2s;
+      color: $link-hover;
+      border-bottom: 1px solid $link-hover;
+    }
+  }

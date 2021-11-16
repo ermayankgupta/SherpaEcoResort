@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,mKAAI;ADCZ,AAAA,MAAM,CAAC;EACL,UAAU,EAAE,MAAM;EAClB,gBAAgB,ECAD,IAAI;EDCnB,KAAK,ECHI,IAAI;EDIb,MAAM,EAAE,IAAI;EACZ,WAAW,EAAE,UAAU;CAKxB;;AAVD,AAME,MANI,CAMJ,CAAC,CAAA;EACC,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,IAAI;CACV",
+    "sources": [
+        "footer.scss",
+        "colorsAndFonts.scss"
+    ],
+    "names": [],
+    "file": "footer.css"
+}

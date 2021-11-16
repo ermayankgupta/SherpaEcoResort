@@ -1,0 +1,9 @@
+@import 'gradient-box';
+@import 'colorsAndFonts';
+.row img{
+    filter:none;
+    &:hover{
+        transition: linear 0.5s;
+        filter: grayscale(80%);
+    }
+}

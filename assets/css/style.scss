@@ -1,0 +1,127 @@
+@import 'colorsAndFonts';
+$breakpoint: 768px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: $regular-font;
+}
+
+.col-lg-6 {
+  padding-left: 50px;
+  & h2 {
+    color: $secondary-color;
+    font-family: $cursive-font;
+    font-weight: 500;
+    font-size: 60px;
+  }
+  & h3 {
+    color: $primary-color;
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    top: -40px;
+    left: 30px;
+  }
+  & p {
+    text-align: justify;
+    line-height: 30px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+  }
+  & a {
+    text-decoration: none;
+    width: 100px;
+    background-color: $link-hover;
+    color: $bg-color;
+    padding: 8px 15px;
+    border-radius: 8px;
+    &:hover {
+      background-color: $secondary-color;
+    }
+  }
+}
+.maintxt {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background: url("/assets/images/HomePage/homepageBg.jpg");
+  h2 {
+    color: $link-hover;
+    position: relative;
+    top: 10px;
+    font-family: $cursive-font;
+    font-weight: 500;
+    font-size: 5rem;
+  }
+  & h3 {
+    color: $primary-color;
+    font-size: 3rem;
+    font-weight: 800;
+    position: relative;
+    top: -50px;
+    left: 40px;
+  }
+  & p {
+    padding: 40px; 
+    text-shadow: 4px 4px 2px $bg-color; 
+    text-align: justify;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+  }
+  & a {
+    text-decoration: none;
+    width: 200px;
+    background-color: $link-hover;
+    color: $bg-color;
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    &:hover {
+      background-color: $secondary-color;
+    }
+  }
+}
+.col{
+  & a {
+    text-decoration: none;
+    width: 200px;
+    background-color: $link-hover;
+    color: $bg-color;
+    padding: 8px 15px;
+    border-radius: 8px;
+    &:hover {
+      background-color: $secondary-color;
+    }
+  }
+}
+.cardbg-color .card {
+  background-color: $secondary-color;
+  height: 400px;
+  & p {
+    color: $bg-color;
+  }
+}
+.card-body {
+  & h5 {
+    color: $black-color;
+  }
+  border: none;
+  border-radius: 10px;
+  color: $link-hover;
+}
+textarea {
+  resize: none;
+  width: 100%;
+}
+
+@media (min-width: $breakpoint) {
+  .row .p-4 .col {
+    display: block;
+  }
+  .row .map {
+    display: block;
+  }
+}

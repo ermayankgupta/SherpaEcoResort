@@ -1,0 +1,15 @@
+@import 'gradient-box';
+@import 'colorsAndFonts';
+h2 {
+  color: $secondary-color;
+}
+.textarea{
+  & p {
+    text-align: justify;
+    line-height: 2rem;
+    color: $primary-color;
+    & span{
+      font-size: 30px;
+    }
+  }
+}

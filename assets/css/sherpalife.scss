@@ -1,0 +1,32 @@
+@import 'gradient-box';
+@import 'colorsAndFonts';
+$breakpoint: 768px;
+body {
+  font-family: $regular-font;
+}
+h1 {
+  color: $secondary-color;
+  font-family: $cursive-font;
+  font-size: 15vmin;
+}
+h2 {
+  position: relative;
+  font-size: 5vmin;
+  top: -30px;
+  left: 0px;
+  color: $primary-color;
+}
+.col-lg-6 {
+  & p{
+    color: $primary-color;
+  }
+  img:hover {
+    transform: scale(1.1);
+    filter: grayscale(100%);
+    transition: all ease 0.5s;
+  }
+}
+.row {
+  width: 100%;
+}
+

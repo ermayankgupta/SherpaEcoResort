@@ -1,0 +1,12 @@
+@import 'colorsAndFonts';
+footer {
+  text-align: center;
+  background-color: $footer-bg-color;
+  color: $bg-color;
+  height: 55px;
+  font-family: sans-serif;
+  p{
+    position: relative;
+    top: 20px;
+  }
+}
