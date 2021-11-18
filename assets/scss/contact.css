@@ -16,7 +16,6 @@ body {
   font-weight: 600;
   position: relative;
   top: -50px;
-  left: 30px;
 }
 
 .container label {
@@ -39,6 +38,7 @@ body {
   color: #fff;
   padding: 8px 15px;
   border-radius: 8px;
+  margin-top: 10px;
 }
 
 .container a:hover {

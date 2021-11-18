@@ -1,4 +1,15 @@
-@import 'colorsAndFonts';
+@import "colorsAndFonts";
+@mixin button {
+  text-decoration: none;
+    width: 100px;
+    background-color: $link-hover;
+    color: $bg-color;
+    padding: 8px 15px;
+    border-radius: 8px;
+    &:hover {
+      background-color: $secondary-color;
+    }
+}
 $breakpoint: 768px;
 * {
   margin: 0;
@@ -32,15 +43,7 @@ body {
     letter-spacing: 2px;
   }
   & a {
-    text-decoration: none;
-    width: 100px;
-    background-color: $link-hover;
-    color: $bg-color;
-    padding: 8px 15px;
-    border-radius: 8px;
-    &:hover {
-      background-color: $secondary-color;
-    }
+    @include button;
   }
 }
 .maintxt {
@@ -58,15 +61,14 @@ body {
   }
   & h3 {
     color: $primary-color;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 800;
     position: relative;
-    top: -50px;
-    left: 40px;
+    top: -30px;
   }
   & p {
-    padding: 40px; 
-    text-shadow: 4px 4px 2px $bg-color; 
+    padding: 40px;
+    text-shadow: 4px 4px 2px $bg-color;
     text-align: justify;
     word-spacing: 5px;
     letter-spacing: 2px;
@@ -84,7 +86,7 @@ body {
     }
   }
 }
-.col{
+.col {
   & a {
     text-decoration: none;
     width: 200px;
@@ -97,27 +99,24 @@ body {
     }
   }
 }
-.cardbg-color .card {
-  background-color: $secondary-color;
-  height: 400px;
-  & p {
-    color: $bg-color;
+
+.card-section {
+  & .card {
+    background-color: $secondary-color;
+    height: 400px;
+    width: 18rem;
+    & p {
+      color: $bg-color;
+    }
   }
 }
-.card-body {
-  & h5 {
-    color: $black-color;
-  }
-  border: none;
-  border-radius: 10px;
-  color: $link-hover;
-}
+
 textarea {
   resize: none;
   width: 100%;
 }
 
-@media (min-width: $breakpoint) {
+@media (max-width: $breakpoint) {
   .row .p-4 .col {
     display: block;
   }

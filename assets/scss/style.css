@@ -68,11 +68,10 @@ body {
 
 .maintxt h3 {
   color: #5b5b5b;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 800;
   position: relative;
-  top: -50px;
-  left: 40px;
+  top: -30px;
 }
 
 .maintxt p {
@@ -110,23 +109,14 @@ body {
   background-color: #9cf274;
 }
 
-.cardbg-color .card {
+.card-section .card {
   background-color: #9cf274;
   height: 400px;
+  width: 18rem;
 }
 
-.cardbg-color .card p {
+.card-section .card p {
   color: #fff;
-}
-
-.card-body {
-  border: none;
-  border-radius: 10px;
-  color: #00ce1b;
-}
-
-.card-body h5 {
-  color: #000;
 }
 
 textarea {
@@ -134,7 +124,7 @@ textarea {
   width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .row .p-4 .col {
     display: block;
   }

@@ -11,4 +11,9 @@ nav .container-fluid .collapse .navbar-nav a:hover {
   color: #00ce1b;
   border-bottom: 1px solid #00ce1b;
 }
+
+.navbar-brand i {
+  color: #00ce1b;
+  font-size: 1.6rem;
+}
 /*# sourceMappingURL=header.css.map */
