@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "AAAA,OAAO,CAAC,mKAAI",
     "sources": [
-        "colorsAndFonts.scss"
+        "colors-Fonts.scss"
     ],
     "names": [],
-    "file": "colorsAndFonts.css"
+    "file": "colors-Fonts.css"
 }

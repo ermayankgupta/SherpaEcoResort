@@ -1,7 +1,8 @@
-@import "colorsAndFonts";
+@import "colors-Fonts";
 h2 {
   color: $secondary-color;
 }
+
 .textarea {
   & p {
     text-align: justify;

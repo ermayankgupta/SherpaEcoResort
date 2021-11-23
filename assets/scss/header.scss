@@ -1,5 +1,4 @@
-@import "colorsAndFonts";
-
+@import "colors-Fonts";
 nav .container-fluid .collapse .navbar-nav a {
   font-family: $regular-font;
   font-weight: bold;
@@ -10,6 +9,7 @@ nav .container-fluid .collapse .navbar-nav a {
     border-bottom: 1px solid $link-hover;
   }
 }
+
 .navbar-brand i {
   color: $link-hover;
   font-size: 1.6rem;

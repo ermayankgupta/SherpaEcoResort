@@ -1,9 +1,9 @@
 {
     "version": 3,
-    "mappings": "ACAA,OAAO,CAAC,mKAAI;ADCZ,AAAA,IAAI,CAAC,GAAG,CAAA;EACJ,MAAM,EAAC,IAAI;CAKd;;AAND,AAEI,IAFA,CAAC,GAAG,AAEH,MAAM,CAAA;EACH,UAAU,EAAE,WAAW;EACvB,MAAM,EAAE,cAAc;CACzB",
+    "mappings": "ACAA,OAAO,CAAC,mKAAI;ADCZ,AAAA,IAAI,CAAC,GAAG,CAAC;EACP,MAAM,EAAE,IAAI;CAKb;;AAND,AAEE,IAFE,CAAC,GAAG,AAEL,MAAM,CAAC;EACN,UAAU,EAAE,WAAW;EACvB,MAAM,EAAE,cAAc;CACvB",
     "sources": [
         "gallery.scss",
-        "colorsAndFonts.scss"
+        "colors-Fonts.scss"
     ],
     "names": [],
     "file": "gallery.css"

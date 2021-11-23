@@ -1,4 +1,4 @@
-@import "colorsAndFonts";
+@import "colors-Fonts";
 @mixin button {
   text-decoration: none;
   width: 100px;
@@ -10,9 +10,11 @@
     background-color: $secondary-color;
   }
 }
+
 body {
   font-family: $regular-font;
 }
+
 .container {
   & h2 {
     color: $secondary-color;
@@ -41,6 +43,7 @@ body {
     color: $link-hover;
   }
 }
+
 .container a {
   @include button;
   margin-top: 10px;

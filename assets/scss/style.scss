@@ -1,4 +1,4 @@
-@import "colorsAndFonts";
+@import "colors-Fonts";
 @mixin button {
   text-decoration: none;
   width: 100px;
@@ -10,12 +10,14 @@
     background-color: $secondary-color;
   }
 }
+
 $breakpoint: 768px;
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: $regular-font;
 }
@@ -46,11 +48,12 @@ body {
     @include button;
   }
 }
+
 .maintxt {
   height: 100%;
   width: 100%;
   text-align: center;
-  background: url("/assets/images/HomePage/homepageBg.jpg");
+  background: url("/assets/images/Home/homepageBg.jpg");
   h2 {
     color: $link-hover;
     position: relative;
@@ -86,6 +89,7 @@ body {
     }
   }
 }
+
 .col {
   & a {
     text-decoration: none;

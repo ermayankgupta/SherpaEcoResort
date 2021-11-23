@@ -1,206 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sherpa Eco Resort | HOME</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="assets/scss/style.css" />
-  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous"></script>
-  <script src="/js/importUtilities.js"></script>
-  <script src="/js/validation.js"></script>
-  <script src="/js/cookies.js"></script>
-  <script src="/js/chatbot.js"></script>
-</head>
-
-<body onload="checkCookie()">
-  <div id="header"></div>
-  <!-- slider -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="assets/images/HomePage/slider-1.jpg" class="d-block w-100" alt="Resort Pic 1" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sherpa Eco Resort | HOME</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/scss/style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+    <script src="/js/importUtilities.js"></script>
+    <script src="/js/validation.js"></script>
+    <script src="/js/cookies.js"></script>
+    <script src="/js/chatbot.js"></script>
+  </head>
+  <body onload="checkCookie()">
+    <div id="header"></div>
+    <!-- slider -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
       </div>
-      <div class="carousel-item">
-        <img src="assets/images/HomePage/slider-2.jpg" class="d-block w-100" alt="Resort Pic 2" />
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/images/Home/slider-1.jpg" class="d-block w-100" alt="Resort Pic 1" />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/Home/slider-2.jpg" class="d-block w-100" alt="Resort Pic 2" />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/Home/slider-3.jpg" class="d-block w-100" alt="Resort Pic 3" />
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="assets/images/HomePage/slider-3.jpg" class="d-block w-100" alt="Resort Pic 3" />
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="next">
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  <div class="container-fluid mt-5">
-    <div class="row p-4">
-      <div class="col-lg-6 col-sm-12 my-2">
-        <h2>Welcome</h2>
-        <h3>
-          Unforgettable <br />
-          Experience
-        </h3>
-        <p>
-          A vacation at Sherpa Eco Resort is not just a stay! At Sherpa we
-          make the vacation an experience for enthusiasts of wild, hiking,
-          adventure and nature lovers. At Sherpa it’s time to get out of your
-          luxury suits and indulge in a different kind of adventure!
-        </p>
-        <a href="about.html">Read More</a>
-      </div>
-      <div class="col-lg-6 col-sm-12 my-2">
-        <div id="carouselExampleSlidesOnly " class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner second">
-            <div class="carousel-item active">
-              <img src="assets/images/HomePage/2_slider-1.jpg" class="d-block w-100" alt="Cafeteria Area" />
-            </div>
-            <div class="carousel-item">
-              <img src="assets/images/HomePage/2-slider-2.jpg" class="d-block w-100" alt="Room Pic 1" />
-            </div>
-            <div class="carousel-item">
-              <img src="assets/images/HomePage/2-slider-3.jpg" class="d-block w-100" alt="Room Pic 2" />
-            </div>
-            <div class="carousel-item">
-              <img src="assets/images/HomePage/2-slider-4.jpg" class="d-block w-100" alt="Room Pic 3" />
-            </div>
-          </div>
-        </div>
-      </div>
+      </button>
     </div>
-  </div>
-
-  <div class="container mb-4">
-    <div class="row">
-      <div class="col">
-        <div class="maintxt">
-          <h2 class="mt-2">Enjoy In</h2>
-          <h3>Arm Of Mother Nature</h3>
+    <div class="container-fluid mt-5">
+      <div class="row p-4">
+        <div class="col-lg-6 col-sm-12 my-2">
+          <h2>Welcome</h2>
+          <h3>
+            Unforgettable <br />
+            Experience
+          </h3>
           <p>
-            All the fun in soothing arms of Mother Nature. Apart from the
-            natural scenery we have everything to keep you indulge. Beginning
-            from in house adventure, we have numerous attractions to keep you
-            occupied. Trekking, Hiking, Camping, Zip Lines, Burma bridge and
-            local village tours are only few to name. We promise to keep you
-            coming back for more, click the button below to find more about
-            the actions and activities at The Sherpa Eco ResortA vacation at
-            Sherpa Eco Resort is not just a stay! At Sherpa we make the
-            vacation an experience for enthusiasts of wild, hiking, adventure
-            and nature lovers. At Sherpa it’s time to get out of your luxury
-            suits and indulge in a different kind of adventure!
+            A vacation at Sherpa Eco Resort is not just a stay! At Sherpa we
+            make the vacation an experience for enthusiasts of wild, hiking,
+            adventure and nature lovers. At Sherpa it’s time to get out of your
+            luxury suits and indulge in a different kind of adventure!
           </p>
-          <a href="" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book Now</a>
-          <!-- modal -->
-          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-            aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Book Now</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <div class="row">
-                    <div class="col">
-                      <form>
-                        <div class="mb-3">
-                          <input type="name" class="form-control p-2" id="exampleInputName1"
-                            aria-describedby="emailHelp" name="name" placeholder="Full Name">
-                        </div>
-                      </form>
+          <a href="about.html">Read More</a>
+        </div>
+        <div class="col-lg-6 col-sm-12 my-2">
+          <div id="carouselExampleSlidesOnly " class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner second">
+              <div class="carousel-item active">
+                <img src="assets/images/Home/2_slider-1.jpg" class="d-block w-100" alt="Cafeteria Area" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/Home/2-slider-2.jpg" class="d-block w-100" alt="Room Pic 1" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/Home/2-slider-3.jpg" class="d-block w-100" alt="Room Pic 2" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/Home/2-slider-4.jpg" class="d-block w-100" alt="Room Pic 3" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mb-4">
+      <div class="row">
+        <div class="col">
+          <div class="maintxt">
+            <h2 class="mt-2">Enjoy In</h2>
+            <h3>Arm Of Mother Nature</h3>
+            <p>
+              All the fun in soothing arms of Mother Nature. Apart from the
+              natural scenery we have everything to keep you indulge. Beginning
+              from in house adventure, we have numerous attractions to keep you
+              occupied. Trekking, Hiking, Camping, Zip Lines, Burma bridge and
+              local village tours are only few to name. We promise to keep you
+              coming back for more, click the button below to find more about
+              the actions and activities at The Sherpa Eco ResortA vacation at
+              Sherpa Eco Resort is not just a stay! At Sherpa we make the
+              vacation an experience for enthusiasts of wild, hiking, adventure
+              and nature lovers. At Sherpa it’s time to get out of your luxury
+              suits and indulge in a different kind of adventure!
+            </p>
+            <a href="" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book Now</a>
+            <!-- modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Book Now</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col">
+                        <form>
+                          <div class="mb-3">
+                            <input type="name" class="form-control p-2" id="exampleInputName1"
+                              aria-describedby="emailHelp" name="name" placeholder="Full Name">
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <form>
+                          <div class="mb-3">
+                            <input type="email" class="form-control p-2" id="exampleInputName1"
+                              aria-describedby="emailHelp" placeholder="Email">
+                          </div>
+                        </form>
+                      </div>
                     </div>
-                    <div class="col">
-                      <form>
-                        <div class="mb-3">
-                          <input type="email" class="form-control p-2" id="exampleInputName1"
-                            aria-describedby="emailHelp" placeholder="Email">
-                        </div>
-                      </form>
+                    <div class="row">
+                      <div class="col">
+                        <form>
+                          <div class="mb-3">
+                            <input type="number" class="form-control p-2" id="exampleInputName1"
+                              aria-describedby="emailHelp" placeholder="Phone Number">
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <form name="frm">
+                          <div class="mb-3">
+                            <select id="Select" class="form-select">
+                              <option>Deluxe</option>
+                              <option>Super Deluxe</option>
+                            </select>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <form>
+                          <div class="mb-3">
+                            <label for="Arrival date" class="form-label">Arrival Date</label>
+                            <input type="date" class="form-control p-2" id="exampleInputName1"
+                              aria-describedby="emailHelp" placeholder="Arrival Date">
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <form>
+                          <div class="mb-3">
+                            <label for="Departure Date" class="form-label">Departure Date</label>
+                            <input type="date" class="form-control p-2" id="exampleInputName1"
+                              aria-describedby="emailHelp" placeholder="Email">
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <form>
+                          <div class="mb-3">
+                            <label for="">Number Of member</label>
+                            <select id="Select" class="form-select">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                              <option>6</option>
+                              <option>7</option>
+                              <option>8</option>
+                            </select>
+                          </div>
+                        </form>
+                      </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col">
-                      <form>
-                        <div class="mb-3">
-                          <input type="number" class="form-control p-2" id="exampleInputName1"
-                            aria-describedby="emailHelp" placeholder="Phone Number">
-                        </div>
-                      </form>
-                    </div>
-                    <div class="col">
-                      <form name="frm">
-                        <div class="mb-3">
-                          <select id="Select" class="form-select">
-                            <option>Deluxe</option>
-                            <option>Super Deluxe</option>
-                          </select>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col">
-                      <form>
-                        <div class="mb-3">
-                          <label for="Arrival date" class="form-label">Arrival Date</label>
-                          <input type="date" class="form-control p-2" id="exampleInputName1"
-                            aria-describedby="emailHelp" placeholder="Arrival Date">
-                        </div>
-                      </form>
-                    </div>
-                    <div class="col">
-                      <form>
-                        <div class="mb-3">
-                          <label for="Departure Date" class="form-label">Departure Date</label>
-                          <input type="date" class="form-control p-2" id="exampleInputName1"
-                            aria-describedby="emailHelp" placeholder="Email">
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col">
-                      <form>
-                        <div class="mb-3">
-                          <label for="">Number Of member</label>
-                          <select id="Select" class="form-select">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>8</option>
-                          </select>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save
                     changes</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -208,101 +206,99 @@
         </div>
       </div>
     </div>
-  </div>
-  <!-- cards -->
-  <div class="container text-center">
-    <div class="card-section">
-      <div class="container-fluid mt-4">
-        <div class="row">
-          <div class="col my-2 d-flex justify-content-center">
-            <div class="card">
-              <img src="assets/images/HomePage/person1.jpg" class="card-img-top" alt="Person 1" />
-              <div class="card-body">
-                <h5 class="card-title">Sujal</h5>
-                <p class="card-text">
-                  Awesome place... In the lap of mother nature... Friendly
-                  staff... Nice Room and specilly great food. Loved my stay.
-                  <br />
-                  <br />
-                </p>
+    <!-- cards -->
+    <div class="container text-center">
+      <div class="card-section">
+        <div class="container-fluid mt-4">
+          <div class="row">
+            <div class="col my-2 d-flex justify-content-center">
+              <div class="card">
+                <img src="assets/images/Home/person1.jpg" class="card-img-top" alt="Person 1" />
+                <div class="card-body">
+                  <h5 class="card-title">Sujal</h5>
+                  <p class="card-text">
+                    Awesome place... In the lap of mother nature... Friendly
+                    staff... Nice Room and specilly great food. Loved my stay.
+                    <br />
+                    <br />
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col my-2 d-flex justify-content-center">
-            <div class="card ">
-              <img src="assets/images/HomePage/person2.jpg" class="card-img-top" alt="Person 2" />
-              <div class="card-body">
-                <h5 class="card-title">Aman Dhiman</h5>
-                <p class="card-text">
-                  Perfect place for someone wo want to enjoy untouched nature.
-                  Great for family vacation. Live barbeque, borfire and
-                  adventure
-                </p>
+            <div class="col my-2 d-flex justify-content-center">
+              <div class="card ">
+                <img src="assets/images/Home/person2.jpg" class="card-img-top" alt="Person 2" />
+                <div class="card-body">
+                  <h5 class="card-title">Aman Dhiman</h5>
+                  <p class="card-text">
+                    Perfect place for someone wo want to enjoy untouched nature.
+                    Great for family vacation. Live barbeque, borfire and
+                    adventure
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col my-2 d-flex justify-content-center">
-            <div class="card ">
-              <img src="assets/images/HomePage/person4.jpg" class="card-img-top" alt="Person 3" />
-              <div class="card-body">
-                <h5 class="card-title">Sharan Kaushal</h5>
-                <p class="card-text">
-                  Awesome place... In the lap of mother nature... Friendly
-                  staff... Nice Room and specilly great food. Loved my stay.
-                  <br />
-                  <br />
-                </p>
+            <div class="col my-2 d-flex justify-content-center">
+              <div class="card ">
+                <img src="assets/images/Home/person4.jpg" class="card-img-top" alt="Person 3" />
+                <div class="card-body">
+                  <h5 class="card-title">Sharan Kaushal</h5>
+                  <p class="card-text">
+                    Awesome place... In the lap of mother nature... Friendly
+                    staff... Nice Room and specilly great food. Loved my stay.
+                    <br />
+                    <br />
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col my-2 d-flex justify-content-center">
-            <div class="card">
-              <img src="assets/images/HomePage/person3.jpg" class="card-img-top" alt="Person 4" />
-              <div class="card-body">
-                <h5 class="card-title">Rajan bakshi</h5>
-                <p class="card-text">
-                  If you are nature loving person and loved to be in peace you
-                  should have to go this resort. Very neat. You feel like you
-                  are in heaven.
-                </p>
+            <div class="col my-2 d-flex justify-content-center">
+              <div class="card">
+                <img src="assets/images/Home/person3.jpg" class="card-img-top" alt="Person 4" />
+                <div class="card-body">
+                  <h5 class="card-title">Rajan bakshi</h5>
+                  <p class="card-text">
+                    If you are nature loving person and loved to be in peace you
+                    should have to go this resort. Very neat. You feel like you
+                    are in heaven.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- google maps and form -->
-  <div class="container">
-    <div class="row mt-5" id="contactus">
-      <div class="col-lg-6 col-md-12 ">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d438297.94141745864!2d77.146242!3d30.880991!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x86ed2b5101077821!2sSherpa%20Eco%20Resort!5e0!3m2!1sen!2sin!4v1635317485895!5m2!1sen!2sin"
-          width="100%" height="500" loading="lazy">
-        </iframe>
+    <!-- google maps and form -->
+    <div class="container">
+      <div class="row mt-5" id="contactus">
+        <div class="col-lg-6 col-md-12 ">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d438297.94141745864!2d77.146242!3d30.880991!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x86ed2b5101077821!2sSherpa%20Eco%20Resort!5e0!3m2!1sen!2sin!4v1635317485895!5m2!1sen!2sin"
+            width="100%" height="500" loading="lazy">
+          </iframe>
+        </div>
+        <div class="col mt-4">
+          <div id="isFormValid" class="alert" role="alert"></div>
+          <form name="form">
+            <div class="mb-3">
+              <input type="text" class="form-control p-2 " id="name" placeholder="Full Name" name="name" />
+            </div>
+            <div class="mb-3 ">
+              <input type="email" class="form-control p-2" id="email" placeholder="Email" name="email" />
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control p-2" id="phone" placeholder="Contact No." name="pno" />
+            </div>
+            <div class="mb-3">
+              <textarea name="query" id="query" rows="7" name="txt" class="p-2" placeholder="Type a Query"></textarea>
+            </div>
+            <a href="#isFormValid" class="btn mb-4" style="width: 100%" onclick="func()">Submit</a>
+          </form>
+        </div>
       </div>
-      <div class="col mt-4">
-        <div id="isFormValid" class="alert" role="alert"></div>
-        <form name="form">
-          <div class="mb-3">
-            <input type="text" class="form-control p-2 " id="name" placeholder="Full Name" name="name" />
-          </div>
-          <div class="mb-3 ">
-            <input type="email" class="form-control p-2" id="email" placeholder="Email" name="email" />
-          </div>
-          <div class="mb-3">
-            <input type="text" class="form-control p-2" id="phone" placeholder="Contact No." name="pno" />
-          </div>
-          <div class="mb-3">
-            <textarea name="query" id="query" rows="7" name="txt" class="p-2" placeholder="Type a Query"></textarea>
-          </div>
-          <a href="#isFormValid" class="btn mb-4" style="width: 100%" onclick="func()">Submit</a>
-        </form>
-      </div>
+      <script></script>
     </div>
-    <script></script>
-  </div>
-  <div id="footer"></div>
-</body>
-
+    <div id="footer"></div>
+  </body>
 </html>

@@ -1,4 +1,4 @@
-@import "colorsAndFonts";
+@import "colors-Fonts";
 .gradiant {
   width: 100%;
   height: 150px;
@@ -24,6 +24,7 @@
     }
   }
 }
+
 @media only screen and (max-width: 600px) {
   .gradiant {
     height: 200px;
