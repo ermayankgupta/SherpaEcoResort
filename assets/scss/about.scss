@@ -1,13 +1,13 @@
-@import 'colorsAndFonts';
+@import "colorsAndFonts";
 h2 {
   color: $secondary-color;
 }
-.textarea{
+.textarea {
   & p {
     text-align: justify;
     line-height: 2rem;
     color: $primary-color;
-    & span{
+    & span {
       font-size: 30px;
     }
   }

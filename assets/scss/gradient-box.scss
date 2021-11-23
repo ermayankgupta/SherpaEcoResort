@@ -1,39 +1,37 @@
-@import 'colorsAndFonts';
+@import "colorsAndFonts";
 .gradiant {
-    width: 100%;
-    height: 150px;
-    background-image: linear-gradient(to right, $gradian-left, $gradian-right);
-    & p {
-      font-size: 35px;
-      position: relative;
-      top: 40px;
+  width: 100%;
+  height: 150px;
+  background-image: linear-gradient(to right, $gradian-left, $gradian-right);
+  & p {
+    font-size: 35px;
+    position: relative;
+    top: 40px;
+    color: $bg-color;
+  }
+  & a {
+    background-color: $bg-color;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    position: relative;
+    top: 45px;
+    color: $secondary-color;
+    &:hover {
+      transition: ease-in 0.2s;
+      background-color: orange;
       color: $bg-color;
-      
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .gradiant {
+    height: 200px;
+    & p {
+      top: 0%;
     }
     & a {
-      background-color: $bg-color;
-      text-decoration: none;
-      padding: 10px 40px;
-      border-radius: 5px;
-      position: relative;
-      top: 45px;
-      color: $secondary-color;
-      &:hover {
-        transition: ease-in 0.2s;
-        background-color: orange;
-        color: $bg-color;
-      }
+      top: 0px;
     }
   }
-  @media only screen and (max-width: 600px) {
-    .gradiant {
-      width: 100%;
-      height: 200px;
-      & p{
-        top: 0%;
-      }
-      & a {
-        top: 0px;
-      }
-    }
-  }
+}

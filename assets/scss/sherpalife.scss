@@ -1,4 +1,4 @@
-@import 'colorsAndFonts';
+@import "colorsAndFonts";
 $breakpoint: 768px;
 body {
   font-family: $regular-font;
@@ -16,7 +16,7 @@ h2 {
   color: $primary-color;
 }
 .col-lg-6 {
-  & p{
+  & p {
     color: $primary-color;
   }
   img:hover {
@@ -28,4 +28,3 @@ h2 {
 .row {
   width: 100%;
 }
-

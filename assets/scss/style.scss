@@ -1,14 +1,14 @@
 @import "colorsAndFonts";
 @mixin button {
   text-decoration: none;
-    width: 100px;
-    background-color: $link-hover;
-    color: $bg-color;
-    padding: 8px 15px;
-    border-radius: 8px;
-    &:hover {
-      background-color: $secondary-color;
-    }
+  width: 100px;
+  background-color: $link-hover;
+  color: $bg-color;
+  padding: 8px 15px;
+  border-radius: 8px;
+  &:hover {
+    background-color: $secondary-color;
+  }
 }
 $breakpoint: 768px;
 * {

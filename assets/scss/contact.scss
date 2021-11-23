@@ -1,14 +1,14 @@
-@import 'colorsAndFonts';
+@import "colorsAndFonts";
 @mixin button {
   text-decoration: none;
-    width: 100px;
-    background-color: $link-hover;
-    color: $bg-color;
-    padding: 8px 15px;
-    border-radius: 8px;
-    &:hover {
-      background-color: $secondary-color;
-    }
+  width: 100px;
+  background-color: $link-hover;
+  color: $bg-color;
+  padding: 8px 15px;
+  border-radius: 8px;
+  &:hover {
+    background-color: $secondary-color;
+  }
 }
 body {
   font-family: $regular-font;
@@ -33,12 +33,12 @@ body {
   & label {
     float: left;
   }
-  & textarea{
-      resize: none;
-      width: 100%;
+  & textarea {
+    resize: none;
+    width: 100%;
   }
-  & input{
-      color: $link-hover;
+  & input {
+    color: $link-hover;
   }
 }
 .container a {

@@ -1,11 +1,12 @@
-@import 'colorsAndFonts';
+@import "colorsAndFonts";
 footer {
   text-align: center;
   background-color: $footer-bg-color;
   color: $bg-color;
   height: 55px;
+  width: auto;
   font-family: sans-serif;
-  p{
+  p {
     position: relative;
     top: 20px;
   }

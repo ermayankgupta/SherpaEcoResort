@@ -4,19 +4,19 @@ function func() {
     let z = document.forms["form"]["pno"].value;
     let a = document.forms["form"]["query"].value;
     let text;
-    if (x == "" || x.length <3 || !isNaN(x)) {
+    if (x == "" || x.length < 3 || !isNaN(x)) {
         document.getElementById("isFormValid").classList.add("alert-danger");
         document.getElementById("name").classList.add("is-invalid");
         text = "Enter the valid name";
-    }else if ( y == "") {
+    } else if (y == "") {
         document.getElementById("isFormValid").classList.add("alert-danger");
         document.getElementById("email").classList.add("is-invalid");
         text = "Enter the form Completely";
-    }else if ( z == "" || isNaN(z) || z[0]<6 || z.length < 10 || z.length > 10 ) {
+    } else if (z == "" || isNaN(z) || z[0] < 6 || z.length < 10 || z.length > 10) {
         document.getElementById("isFormValid").classList.add("alert-danger");
         document.getElementById("phone").classList.add("is-invalid");
         text = "Enter the valid number";
-    }else if(a==""){
+    } else if (a == "") {
         document.getElementById("isFormValid").classList.add("alert-warning");
         text = "Please Type Your Query!!";
     } else {
